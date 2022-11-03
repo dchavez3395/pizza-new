@@ -29,7 +29,7 @@ const MenuItem = ({name, image, price, description, id}) => {
                               <p>{description}</p>
                               <div className='flex flex-row gap-4 justify-center'>
                                   <button className='text-white button-theme bg-[#d1411e] shadow shadow-sky-200' onClick={() => {onAddToCart(); onCartToggle();}}>
-                                      <img src="/../src/assets/cart.png" className='h-[22px] w-[22px] ' alt="" />
+                                      <img src="https://raw.githubusercontent.com/dchavez3395/pizza-new/main/src/assets/cart.png" className='h-[22px] w-[22px] ' alt="" />
                                   </button>
                                   <Link to={`/pizza/${id}`}>
                                   <button className='text-white button-theme bg-[#d1411e] shadow shadow-sky-200'>customize</button>
