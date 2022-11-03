@@ -65,15 +65,15 @@ const Pizza = ({pizzas}) => {
             <h3 className='font-bold text-lg'>Choose your size</h3>
             <div className='flex flex-row gap-20 py-2 space-between'>
                 <div className='relative flex flex-row cursor-pointer h-[30px] w-[30px]'>
-                    <img src="/../src/assets/size.png" alt="pizza-size" onClick={() => setSize(0)} />
+                    <img src="https://raw.githubusercontent.com/dchavez3395/pizza-new/main/src/assets/size.png" alt="pizza-size" onClick={() => setSize(0)} />
                     <span className='text-[11px] absolute bg-[teal] text-white top-[-5px] right-[-30px] px-[5px] rounded'>10 inch</span>
                 </div>
                 <div className='relative flex flex-row cursor-pointer h-[40px] w-[40px]'>
-                    <img src="/../src/assets/size.png" alt="pizza-size" onClick={() => setSize(1)}  />
+                    <img src="https://raw.githubusercontent.com/dchavez3395/pizza-new/main/src/assets/size.png" alt="pizza-size" onClick={() => setSize(1)}  />
                     <span className='text-[11px] absolute bg-[teal] text-white top-[-5px] right-[-20px] px-[5px] rounded'>14 inch</span>
                 </div>
                 <div className='relative flex flex-row cursor-pointer h-[50px] w-[50px]'>
-                    <img src="/../src/assets/size.png" alt="pizza-size" onClick={() => setSize(2)} />
+                    <img src="https://raw.githubusercontent.com/dchavez3395/pizza-new/main/src/assets/size.png" alt="pizza-size" onClick={() => setSize(2)} />
                     <span className='text-[11px] absolute bg-[teal] text-white top-[-5px] right-[-20px] px-[5px] rounded'>19 inch</span>
                 </div>
             </div>
